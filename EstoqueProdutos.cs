@@ -45,7 +45,7 @@ namespace CSBarbearia
             }
         }
 
-        // Remove um produto do estoque
+        // Remove um produto
         public void Remover(int posRemover)
         {
             Produto[] novoVetor = new Produto[Produtos.Length - 1];
