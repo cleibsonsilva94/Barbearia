@@ -31,7 +31,7 @@ namespace CSBarbearia
                         Console.Write("Digite o preço do novo produto: ");
                         double preco = double.Parse(Console.ReadLine());
 
-                        Console.Write("Digite a marca do novo produto: ");
+                        Console.Write("Digite a marca: ");
                         string marca = Console.ReadLine();
 
                         Console.Write("Digite o preço comprado do fornecedor(Leve o valor em consideração de for dar um desconto): ");
