@@ -22,7 +22,7 @@ namespace CSBarbearia
                 switch (opcao)
                 {
                     case 1:
-                        Console.Write("Digite o nome: ");
+                        Console.Write("Digite o nome do novo produto: ");
                         string nome = Console.ReadLine();
 
                         Console.Write("Digite a quantidade do produto: ");
